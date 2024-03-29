@@ -1,8 +1,10 @@
+import './Footer.css';
+
 const Footer = () => {
     return (
-      <>
-        <p>@copyright site crée par Julien Lisita</p>
-      </>
+      <footer>
+        <p class = "copyright">@copyright site crée par Julien Lisita</p>
+      </footer>
     );
   };
 

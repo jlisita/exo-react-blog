@@ -1,0 +1,14 @@
+.copyright
+{
+    text-align: center;
+}
+
+footer
+{
+    min-height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+}

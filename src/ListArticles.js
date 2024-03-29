@@ -1,3 +1,5 @@
+import './ListArticles.css';
+
 const ListArticles = () => {
 
     const articles = [
@@ -40,17 +42,17 @@ const ListArticles = () => {
       ];
 
     return (
-      <article>
+      <div class = "listArticles">
         {articles.filter((article) => { return article.isPublished}).map((article) => {
             return  ( 
-                <>
+                <div class = "article">
                     <h2>{article.title}</h2>
                     <img src = {article.img} alt = "image"/>
                     <p>{article.resume}</p>
-                </>
+                </div>
             );
         })}
-      </article>
+      </div>
     );
   };
 
